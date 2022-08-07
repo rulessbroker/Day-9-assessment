@@ -43,3 +43,11 @@ else
 fi
 salary=$(($perHourSalary * $workingHour));
 echo "Employee has earned $salary $ today";
+
+#wages for a month
+
+WagePerDay=160
+WorkingDayInMonth=20
+
+echo Wages For Month = $((WagePerDay * WorkingDayInMonth))
+
