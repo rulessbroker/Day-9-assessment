@@ -17,3 +17,10 @@ WagePerHr=20
 FullDayHr=8
 
 echo DailyWage=$((WagePerHr * FullDayHr))
+
+#Part time wage
+
+WagePerHr=20
+PartTimeHr=8
+
+echo PartTimeWage=$((WagePerHr * PartTimeHr))
